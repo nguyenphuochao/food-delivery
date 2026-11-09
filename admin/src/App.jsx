@@ -21,7 +21,7 @@ const App = () => {
                 <Sidebar />
                 <Routes>
                     {/* Redirect default to list */}
-                    <Route path="/" element={<Navigate to="/list" />}></Route>
+                    <Route path="/" element={<Navigate to="/list" />} />
                     <Route path="/add" element={<Add url={url} />} />
                     <Route path="/list" element={<List url={url} />} />
                     <Route path="/orders" element={<Orders url={url} />} />
